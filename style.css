@@ -1,0 +1,56 @@
+/* navbar */
+body{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 15px;
+   
+}
+.logo{
+    margin-top: 10px;
+}
+.items{
+    display: flex;
+}
+
+.items div{
+    padding: 10px;
+    color: rgb(102, 102, 102);
+}
+
+/*  */
+
+.landing-img{
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+/*  */
+.sign-up{
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up button{
+    padding: 12px 30px;
+    background-color: rgb(56, 126, 209);
+    color: white;
+    border-color: rgb(56, 126, 209);
+    border-radius: 3px;
+    border: solid;
+    border-width: 1px;
+}
